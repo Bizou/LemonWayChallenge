@@ -14,8 +14,6 @@ namespace LemonWayChallenge.WebService
         [WebMethod]
         public int Fibonacci(int n)
         {
-            throw new System.Exception("This is bad");
-
             if ((n < 1) || (n > 100))
             {
                 return -1;
