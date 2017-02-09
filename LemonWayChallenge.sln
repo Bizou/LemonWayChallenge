@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LemonWayChallenge.Client", 
 		{3FBD8154-2D0E-449F-9DCC-6402FB2080D9} = {3FBD8154-2D0E-449F-9DCC-6402FB2080D9}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LemonWayChallenge.WebService.Tests", "LemonWayChallenge.WebService.Tests\LemonWayChallenge.WebService.Tests.csproj", "{E10531F3-4980-420E-8A69-1823F0A4D573}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 		{FF65950D-CE8A-4B35-98AD-85DA90F8430B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF65950D-CE8A-4B35-98AD-85DA90F8430B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF65950D-CE8A-4B35-98AD-85DA90F8430B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E10531F3-4980-420E-8A69-1823F0A4D573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E10531F3-4980-420E-8A69-1823F0A4D573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E10531F3-4980-420E-8A69-1823F0A4D573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E10531F3-4980-420E-8A69-1823F0A4D573}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

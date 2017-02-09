@@ -1,0 +1,20 @@
+<Rows>
+  <Row>
+    <XML>
+      <![CDATA[<a>b</a>]]>
+    </XML>
+    <Result>{"a":"b"}</Result>
+  </Row>
+  <Row>
+    <XML>
+      <![CDATA[<foo>hello</bar>]]>
+    </XML>
+    <Result>Bad Xml format</Result>
+  </Row>
+  <Row>
+    <XML>
+      <![CDATA[<TRANS><HPAY><ID>103</ID><STATUS>3</STATUS><EXTRA><IS3DS>0</IS3DS><AUTH>031183</AUTH></EXTRA><INT_MSG/><MLABEL>501767XXXXXX6700</MLABEL><MTOKEN>project01</MTOKEN></HPAY></TRANS>]]>
+    </XML>
+    <Result>{"TRANS":{"HPAY":{"ID":"103","STATUS":"3","EXTRA":{"IS3DS":"0","AUTH":"031183"},"INT_MSG":null,"MLABEL":"501767XXXXXX6700","MTOKEN":"project01"}}}</Result>
+  </Row>
+</Rows>
